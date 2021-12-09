@@ -5,4 +5,4 @@ while True:
     if n == v:
         print("You Win!")
         break
-    print("Smaller" if (n < v) else "Bigger")
+    print("Lower" if (n < v) else "Higher")
